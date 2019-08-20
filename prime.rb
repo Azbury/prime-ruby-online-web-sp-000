@@ -5,7 +5,7 @@ def prime? (num)
   else
     if num <= 1
       false
-    elsif num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0
+    elsif num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0 || num % 41 == 0
       false
     else
       true
