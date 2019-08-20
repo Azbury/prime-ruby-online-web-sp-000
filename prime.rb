@@ -4,9 +4,9 @@ def prime? (num)
     true
   else
     if num % 2 == 0 || num % 3 == 0 || num % 5 == 0 || num % 7 == 0
-      true
-    else
       false
+    else
+      true
     end
   end
 end
